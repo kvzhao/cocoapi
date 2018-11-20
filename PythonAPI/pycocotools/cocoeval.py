@@ -496,6 +496,7 @@ class COCOeval:
     def __str__(self):
         self.summarize()
 
+    # Ref: https://github.com/pialin/MetricsPerCategoryImplementation
     # add for per category metric from here 
     def summarize_per_category(self):
         '''
