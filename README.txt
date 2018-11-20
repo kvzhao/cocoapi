@@ -14,6 +14,9 @@ To install:
 -For Python, run "make" under coco/PythonAPI
 -For Lua, run “luarocks make LuaAPI/rocks/coco-scm-1.rockspec” under coco/
 
+To install this version:
+pip install "git+https://github.com/kvzhao/cocoapi/#egg=pycocotools&subdirectory=PythonAPI"
+
 ### Note
 In pycocotools, the function `summarize_per_category()` is implemented according to `pialin`'s work.
 https://github.com/pialin/MetricsPerCategoryImplementation
