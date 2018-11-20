@@ -13,3 +13,7 @@ To install:
 -For Matlab, add coco/MatlabApi to the Matlab path (OSX/Linux binaries provided)
 -For Python, run "make" under coco/PythonAPI
 -For Lua, run “luarocks make LuaAPI/rocks/coco-scm-1.rockspec” under coco/
+
+### Note
+In pycocotools, the function `summarize_per_category()` is implemented according to `pialin`'s work.
+https://github.com/pialin/MetricsPerCategoryImplementation
